@@ -9,11 +9,11 @@ let securityQuestions = [
 	expectedAnswer: 'Diane'}
 	]
 
-for (let i =0; i < securityQuestions.length; i++){
-	let securityQ = window.prompt(securityQuestions[i].question)
+for (let i = 0; i < securityQuestions.length; i++){
+	let securityQ = window.prompt(securityQuestions[i].question);
 	console.log(securityQ);
 	if (securityQ !== securityQuestions[i].expectedAnswer){
 		alert("Incorrect Answer!");
 		break;
-	}
+	} 
 }

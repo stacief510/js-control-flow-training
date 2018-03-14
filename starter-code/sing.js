@@ -25,7 +25,7 @@ for (totalBottles; totalBottles >0; totalBottles--){
 		console.log('Take it down and pass it around,');
 		console.log(`${totalBottles-1} bottle of beer on the wall!`);
 
-	}else if (totalBottles === 1){
+	}else if (totalBottles <= 1){
 		console.log(`${totalBottles} bottle of beer on the wall, ${totalBottles} bottle of beer!`);
 		console.log('Take it down and pass it around,');
 		console.log('No more bottles of beer on the wall...');
